@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  border-radius: 32px;
+  padding: 16px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  background: green;
+}
